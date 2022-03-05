@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: darksalmon;
+    min-height: 100vh;
+    border: 10px solid coral;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0px auto;   /* making it in center*/
+}
+
+.image-container{
+    border: 10px solid coral;
+    border-radius: 50%;
+    overflow: hidden;
+    align-items: center;
+}
+
+.image-container, img{
+    width: 200px;
+    height: 220px;  
+}
+
+/*will be positioning elements using flexbox*/
+
+.top-section{
+    margin-top: 40px;
+    display: flex;       /* making container a flex box: it align the text after the image */
+    justify-content: space-between;          /*provides a space betwwen flex items */
+    align-items: center;
+    border-bottom: 2px solid coral;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    
+ }
+
+ .top-section h1{
+     font-size: 60px;
+     font-weight: bold;
+ }
+
+ .top-section h4{
+     text-align: end;
+     font-size: 20px;
+ }
+
+ .about-section{
+     margin-top: 30px ;
+     border-bottom: 1px solid coral;
+ }
+
+  h2{
+     font-size: 70px;
+     font-weight: 400;
+     margin-bottom: 20px;
+ }
+
+ p{
+     font-size: 20px;
+     line-height: 30px;
+     letter-spacing: 1.2px;
+     margin-top: 5px;
+     text-align: justify;
+ }
+
+ .nomenclature{
+     margin-top: 30px;
+     border-bottom: 1px solid coral;
+ }
+
+ .Birth{
+    margin-top: 30px;
+    border-bottom: 1px solid coral;
+}
+
+address{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+address h5{
+    font-size: 18px;
+}
+
+address h5 a{
+    text-decoration: none;
+    color: rgb(18, 95, 172);
+}
+
+footer{
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(18, 95, 172);
+}
